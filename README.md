@@ -4,5 +4,4 @@
 ``` bash
     >> python MLP_extra.py
 ```
-
-"localhost:7777/?user=Jane Doe"
+localhost:7777/?user=Jane Doe
