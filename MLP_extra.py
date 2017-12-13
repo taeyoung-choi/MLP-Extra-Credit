@@ -5,12 +5,8 @@ from tornado.ioloop import IOLoop
 
 class RankHandler(RequestHandler):
     def get(self):
-        # take professor + course_number input
-        # e.g.: 'COMS w4111 w4995 w4170'
         input = self.get_argument('user', 'none')
-        print(input)
         self.write('Hello, {}'.format(input))
-        # self.write(input)
 
 
 if __name__ == "__main__":
