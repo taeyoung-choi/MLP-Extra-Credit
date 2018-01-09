@@ -1,6 +1,6 @@
 # MLP-Extra-Credit
 
-A containerized tornado REST API that accepts a query for a GET request like ?user=username and returns "Hello, <username>" as the response.
+A containerized tornado REST API that accepts a query for a GET request like ?user=username and returns "Hello, username" as the response.
 
 ``` bash
     >> docker build -t mlp_extra .
